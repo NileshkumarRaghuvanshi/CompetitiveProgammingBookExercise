@@ -1,2 +1,2 @@
 # CompetitiveProgammingBookExercise
-Contains all code present in the code, which I practiced
+Contains all code present in the book, which I practiced

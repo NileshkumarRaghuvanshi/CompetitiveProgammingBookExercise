@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <map>
+#include <set>
 
 using namespace std;
 
@@ -18,6 +20,23 @@ void printVector(vector<int> &A) {
         cout <<x<< " ";
     }
     cout<<"\n";
+}
+
+void printSet(set<int> &A) {
+
+    for (auto x: A) {
+        cout <<x<< " ";
+    }
+    cout<<"\n";
+}
+
+void printMap(map<string, int> &map) {
+
+    for (auto x: map) {
+        cout <<x.first<< ": "<<x.second<<"\n";
+    }
+    cout<<"\n";
+
 }
 
 int main() {

@@ -31,14 +31,13 @@ That is why it is also called as feature extractor. There are few standard filte
 3x3 convolution indicate the kernel is of size 3x3. The convolution uses two option while convolving an filter with image
 1. Strides
 
- ... This defines the steps to be taken for moving the kernel to the next position in the image. More the strides, smaller the resultant matrix.
+ ...This defines the steps to be taken for moving the kernel to the next position in the image. More the strides, smaller the resultant matrix.
 
- ... For the stride of 0 the image dimension reduces by 2.
+ ...For the stride of 0 the image dimension reduces by 2.
 2. Pinaddg
 
- ... This is used mainly to increase/maintain the result matrix size same as original matrix
-
-Equation for finding the final result dimension after applying the strides (S) and padding(P) on matrix of size (NXN) and convolving with mxm kernel is  ( N - m +2p)/S + 1
+ ...This is used mainly to increase/maintain the result matrix size same as original matrix
+ ...Equation for finding the final result dimension after applying the strides (S) and padding(P) on matrix of size (NXN) and convolving with mxm kernel is  ( N - m +2p)/S + 1
 
 
 #### Receptive Field

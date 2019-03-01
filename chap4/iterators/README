@@ -12,7 +12,7 @@ upper bound for 6 is 9
 
 
 
-#### Convolution
+####Convolution
 Convolution defines way of multiplying two object together in a certain way. Convolution is a concept used in different fields like, signal processing image processing, audio proecssing.
 In image processing the image is convolve with different filter to detect different feature form the image.
 There are different types of kernels like, edge detector which detects edge from the image when convolved with the image
